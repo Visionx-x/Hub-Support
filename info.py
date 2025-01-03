@@ -20,9 +20,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7651750964:AAEWwgo-a1u33J0ZBKqnZaVGEE_sW71
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5016109398,1158468755').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/MovieHub_Premium") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '2293225893'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002293225893'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/ProSearchRequestGroup')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '2316875460').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002316875460').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MovieHub:MovieHub@cluster0.rlia8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
