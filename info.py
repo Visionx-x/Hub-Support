@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '60fe2a3e6b73bd708a21414d4494e29c')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7651750964:AAEWwgo-a1u33J0ZBKqnZaVGEE_sW71Cesc')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5016109398,1158468755').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1158468755').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/MovieHub_Premium") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002293225893'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/ProSearchRequestGroup')
